@@ -28,7 +28,8 @@ app.listen(PORT, () => {
 
 async function start() {
    try{
-       await mongoose.connect('mongodb+srv://alex:happyday@cluster0.qcu7d.mongodb.net/merryalexa', {
+       await mongoose.connect('mongodb+srv://serg:green@cluster0.mtpb8.mongodb.net/fullstack', {
+        
            useNewUrlParser: true,
            useUnifiedTopology: true ,
            useFindAndModify: false
